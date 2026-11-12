@@ -8,15 +8,24 @@ Supervision: Aaron Wetzler.
 
 ## Status
 
-**Coming soon.** This repository is being prepared as a historical student-project archive. Original source code, project documents and build instructions will be added as they are recovered and reviewed. It is not yet a runnable release.
+The historical Technion implementation, preserved by Kenneth Anguish with iOS compatibility fixes, is included as the `source/` Git submodule from [kenguish/Predator-iOS-Technion](https://github.com/kenguish/Predator-iOS-Technion), pinned to `a63f005bf34b041ff0dd985a8e18083f2d3065eb`. Original student attribution remains intact. This is not a tested current iOS release.
 
 ## Running
 
-No runnable source has been published in this repository yet. Platform requirements and setup instructions will be recorded from the original project files rather than guessed.
+```sh
+git clone --recurse-submodules https://github.com/twerdster/predator-tld-ios.git
+cd predator-tld-ios
+open source/Predator.xcodeproj
+```
+
+Use Xcode to inspect the historical `Predator` target, its Objective-C/C++ sources, bundled OpenCV 2 framework and Apple camera/graphics frameworks. The preserved revision has iOS 6 compatibility fixes and an app deployment target of iOS 6.0. Use your own signing configuration. Old OpenCV binaries, architectures and removed iOS/C++ APIs may require replacement or porting before a modern build is possible.
+
+The project implements tracking/detection from Kalal's TLD work; contemporaneous handoff notes state that online learning was omitted, so do not infer full TLD behavior from the general algorithm description in the upstream README. No compilation, device runtime or performance validation has been performed during recovery.
 
 ## Links
 
 - [Project entry on Aaron Wetzler's website](https://twerdster.github.io/#predator-tld-on-ios)
+- [Preserved original source and attribution](https://github.com/kenguish/Predator-iOS-Technion)
 
 ## Attribution and Updates
 
