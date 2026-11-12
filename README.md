@@ -25,6 +25,7 @@ The project implements tracking/detection from Kalal's TLD work; contemporaneous
 ## Links
 
 - [Project entry on Aaron Wetzler's website](https://twerdster.github.io/#predator-tld-on-ios)
+- [Recovered original project report](docs/report.pdf)
 - [Preserved original source and attribution](https://github.com/kenguish/Predator-iOS-Technion)
 
 ## Attribution and Updates
