@@ -1,0 +1,92 @@
+{
+  "recording": "DAVIS camel",
+  "source_dataset": "https://davischallenge.org/",
+  "source_citation": "Jordi Pont-Tuset, Federico Perazzi, Sergi Caelles, Pablo Arbel\u00e1ez, Alexander Sorkine-Hornung and Luc Van Gool. The 2017 DAVIS Challenge on Video Object Segmentation.",
+  "mp4_mirror": "https://huggingface.co/datasets/emirkisa/DAVIS-2017-480p-mp4",
+  "download_url": "https://huggingface.co/datasets/emirkisa/DAVIS-2017-480p-mp4/resolve/main/camel_raw_24fps.mp4",
+  "downloaded_on": "2026-11-14",
+  "bytes": 2139134,
+  "sha256": "b977d21aea73b0d6ab11ec3201b3373c9ee253f42f659eadf2d08f568755490c",
+  "declared_license": "CC BY-NC 4.0",
+  "license_sources_checked_on": "2026-11-14",
+  "license_sources": [
+    {
+      "url": "https://davischallenge.org/",
+      "location": "Dataset JSON-LD metadata, license property",
+      "value": "http://creativecommons.org/licenses/by-nc/4.0"
+    },
+    {
+      "url": "https://huggingface.co/datasets/emirkisa/DAVIS-2017-480p-mp4/blob/main/README.md",
+      "location": "dataset card license metadata and License section",
+      "value": "cc-by-nc-4.0"
+    }
+  ],
+  "modifications": [
+    "320-pixel-wide grayscale decoding",
+    "manually selected first-frame ROI [105,35,135,85]",
+    "recovered Linux TLD prediction boxes and estimated center trail",
+    "H.264 and GIF encoding on macOS"
+  ],
+  "evaluation_ground_truth_supplied": false,
+  "requested_frames": 90,
+  "ffprobe": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "mime_codec_string": "avc1.64001e",
+    "width": 854,
+    "height": 480,
+    "coded_width": 854,
+    "coded_height": 480,
+    "has_b_frames": 2,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "427:240",
+    "pix_fmt": "yuv420p",
+    "level": 30,
+    "chroma_location": "left",
+    "field_order": "progressive",
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "24/1",
+    "avg_frame_rate": "24/1",
+    "time_base": "1/12288",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 46080,
+    "duration": "3.750000",
+    "bit_rate": "4559296",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "90",
+    "extradata_size": 43,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler"
+    }
+  }
+}

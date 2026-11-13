@@ -1,0 +1,91 @@
+{
+  "original_commit": "a63f005bf34b041ff0dd985a8e18083f2d3065eb",
+  "original_unchanged": true,
+  "files": {
+    "updated/src/Classifier.cpp": {
+      "original": "source/Classifier.cpp",
+      "original_sha256": "7e3e3fe2996f849cbc16cc4714937e398241e95ce9a01737c920061a5aaf2448",
+      "updated_sha256": "4edc9e8fcc83a0e6f03c7591e88811a136e08875893e7979c4972edb0f34c731"
+    },
+    "updated/src/Classifier.h": {
+      "original": "source/Classifier.h",
+      "original_sha256": "741e001e05f5c7b6230cd3dfede9a4ee3bf8925a0c916bea242cf76e8cfb06d2",
+      "updated_sha256": "4f1f1726942a2f993f453f1125c0386ec0238bbc6eaa3e87592718af148781bd"
+    },
+    "updated/src/Fern.cpp": {
+      "original": "source/Fern.cpp",
+      "original_sha256": "d7e44839bce36c78131ac106b3577d514cfca927ad2977af0abd05ccc9ef5efa",
+      "updated_sha256": "b779030ff3d6c63eb27199d03ac57237a9aeef9a28982d370b53d2bf32a03cc6"
+    },
+    "updated/src/Fern.h": {
+      "original": "source/Fern.h",
+      "original_sha256": "99d3938863df6a423f56cbafdd8996b380897884c3d3548e21c630110da07781",
+      "updated_sha256": "99d3938863df6a423f56cbafdd8996b380897884c3d3548e21c630110da07781"
+    },
+    "updated/src/Parameters.h": {
+      "original": "source/Predator/Parameters.h",
+      "original_sha256": "27a96f72746c450590591329986bc96364037a1470d2675eaa988c6b5d3b66f4",
+      "updated_sha256": "27a96f72746c450590591329986bc96364037a1470d2675eaa988c6b5d3b66f4"
+    },
+    "updated/src/PointTest.cpp": {
+      "original": "source/PointTest.cpp",
+      "original_sha256": "84874b922fb8a052107e50164401019633cafc866b334e66d134cef68d22650c",
+      "updated_sha256": "2ec61796ff895371ae88651751ad2960de47de32b0a18ed7748f59a7b1039519"
+    },
+    "updated/src/PointTest.h": {
+      "original": "source/PointTest.h",
+      "original_sha256": "22ec6fd9d8b394d0ac1b003423b9405656a16c29658ad90eedfb849ec7d2ae9a",
+      "updated_sha256": "aed799184e426081f91fd92262ee3d4cfada7aa7e180cd4d7b4687d8c2d052cc"
+    },
+    "updated/src/Tld.cpp": {
+      "original": "source/Tld.mm",
+      "original_sha256": "5cb2bf9a01b2f5e7120bb04cd098e084cceab09acec460d1ca6aa40e587a5543",
+      "updated_sha256": "4173ff028908d23e2665c453d2213a054a6ca950a2d54415c1e0255b3a502d41"
+    },
+    "updated/src/Tld.h": {
+      "original": "source/Tld.h",
+      "original_sha256": "180921aab3c5585ca3060c9854c3908a06a87ac03f98e021c3ace779eb85ad33",
+      "updated_sha256": "062bdb4c9156a9498df380ceef01317dbe7f8a2f895dc7a2ad164e2526b86027"
+    },
+    "updated/src/TldDetector.cpp": {
+      "original": "source/TldDetector.cpp",
+      "original_sha256": "61b94106a82fd25fd156d01681b7494feb4874a4b31aa5473bc0beb00811b35e",
+      "updated_sha256": "61b94106a82fd25fd156d01681b7494feb4874a4b31aa5473bc0beb00811b35e"
+    },
+    "updated/src/TldDetector.h": {
+      "original": "source/TldDetector.h",
+      "original_sha256": "14fb29f7023f409dc7b9ea76d94c7b5c2acc6fe53a71e2cba3ad5d8284ebf698",
+      "updated_sha256": "14fb29f7023f409dc7b9ea76d94c7b5c2acc6fe53a71e2cba3ad5d8284ebf698"
+    },
+    "updated/src/TldImage.cpp": {
+      "original": "source/TldImage.cpp",
+      "original_sha256": "f72887150b986740c7801918482bef351d555e6b91a287492930c867c754e88f",
+      "updated_sha256": "f0f1bb4d706dc2b276ac78c77e75d09a418222d865bab7f4a330009727166052"
+    },
+    "updated/src/TldImage.h": {
+      "original": "source/TldImage.h",
+      "original_sha256": "05cc60b30e7dd6a5a7e7a39715fa928caea8c3fddb69a17fbd33c72ab81b70df",
+      "updated_sha256": "cd05ba98d1a63941fa2ec3a62577f58490773a51e1882ab0b6237b7957ae902f"
+    },
+    "updated/src/Tracker.cpp": {
+      "original": "source/Tracker.cpp",
+      "original_sha256": "25a21df9fab2fe3f7fdaa045009a69405cd000737b4c1852e2955660ad8eaad5",
+      "updated_sha256": "20079ff0d4e1c3bc1355d2fe121ffd930b0c5647384d9ddda655d21f1ca62bfc"
+    },
+    "updated/src/Tracker.h": {
+      "original": "source/Tracker.h",
+      "original_sha256": "3f96bfa936a4961b67d63f03b7acb5a412569f659e79421f53eaff2b66f0b778",
+      "updated_sha256": "11ae319c4cb5f6b27d8e43fe0b428e097630cf374a503830c6e59d2f772c04a3"
+    },
+    "updated/src/Utils.cpp": {
+      "original": "source/Utils.mm",
+      "original_sha256": "38e1642bb5f88849e4deace29d0c45d64bbaa1007505152d4bc9fa1f14798d00",
+      "updated_sha256": "1c4790deed71a8fc1d02d1dd6f40ec5da82240724a4f130f8a662d55f3ac79bc"
+    },
+    "updated/src/Utils.h": {
+      "original": "source/Utils.h",
+      "original_sha256": "928a21030c6f3034a4d8402688049774c8d810b2c71a781908acb89826981b4d",
+      "updated_sha256": "2cdbb7275b8b7b30d0dec28658cb6a991fa26ffde4b34dec4964ebeff8483b22"
+    }
+  }
+}

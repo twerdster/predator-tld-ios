@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-14",
+  "source_commit": "a63f005bf34b041ff0dd985a8e18083f2d3065eb",
+  "original_source_changed": false,
+  "root_readme_changed": false,
+  "original_application_build": {
+    "status": "failed_before_compilation",
+    "toolchain": "Xcode 16.1, iPhoneSimulator 18.1",
+    "fatal_reason": "deprecated i386 architecture",
+    "additional_warning": "unsupported iOS 6 deployment target",
+    "log_excerpt": "results/original-xcodebuild.txt"
+  },
+  "ctest_scope": "One CTest program containing several component assertions, not a large independent test suite",
+  "linux": {
+    "os": "Ubuntu 22.04 x86_64, kernel 6.8.0-138-generic",
+    "compiler": "GCC 11.4.0",
+    "cmake": "3.22.1",
+    "opencv": "4.5.4 core/imgproc",
+    "ctest_programs_passed": 1,
+    "asan_ubsan_full_120_frame_run": true,
+    "leak_detection_enabled": true,
+    "instrumentation_scope": "project sources; prebuilt OpenCV not instrumented",
+    "synthetic_learning_on": {
+      "input": "controlled synthetic textured target with ground truth and full occlusion",
+      "frames": 120,
+      "learning_enabled": true,
+      "ground_truth_supplied": true,
+      "mean_iou_visible": 0.946363,
+      "visible_iou_at_least_half": 105,
+      "visible_frames": 105,
+      "reinitializations": 2,
+      "lost_frames": 15,
+      "post_occlusion_first_iou_half_frame": 65,
+      "online_positive_updates": 664,
+      "online_negative_updates": 848
+    },
+    "synthetic_learning_off": {
+      "input": "controlled synthetic textured target with ground truth and full occlusion",
+      "frames": 120,
+      "learning_enabled": false,
+      "ground_truth_supplied": true,
+      "mean_iou_visible": 0.874728,
+      "visible_iou_at_least_half": 97,
+      "visible_frames": 105,
+      "reinitializations": 7,
+      "lost_frames": 16,
+      "post_occlusion_first_iou_half_frame": 65,
+      "online_positive_updates": 0,
+      "online_negative_updates": 0
+    },
+    "recorded_camel": {
+      "input": "recorded real video; no ground truth supplied",
+      "frames": 90,
+      "learning_enabled": true,
+      "ground_truth_supplied": false,
+      "mean_iou_visible": null,
+      "visible_iou_at_least_half": null,
+      "visible_frames": null,
+      "reinitializations": 4,
+      "lost_frames": 4,
+      "post_occlusion_first_iou_half_frame": null,
+      "online_positive_updates": 3250,
+      "online_negative_updates": 10610
+    },
+    "original_negative_controls": [
+      {
+        "case": "negative",
+        "returncode": 1,
+        "expected_diagnostic_observed": true
+      },
+      {
+        "case": "borrowed",
+        "returncode": 1,
+        "expected_diagnostic_observed": true
+      },
+      {
+        "case": "endpoint",
+        "returncode": 1,
+        "expected_diagnostic_observed": true
+      }
+    ]
+  },
+  "macos": {
+    "os": "macOS 15.1.1 arm64",
+    "compiler": "Apple clang 16.0.0",
+    "cmake": "4.0.3",
+    "opencv": "4.12.0 core/imgproc",
+    "ctest_programs_passed": 1,
+    "asan_ubsan_full_120_frame_run": true,
+    "leak_detection_enabled": false,
+    "instrumentation_scope": "project sources; prebuilt OpenCV not instrumented",
+    "synthetic_learning_on": {
+      "input": "controlled synthetic textured target with ground truth and full occlusion",
+      "frames": 120,
+      "learning_enabled": true,
+      "ground_truth_supplied": true,
+      "mean_iou_visible": 0.934852,
+      "visible_iou_at_least_half": 105,
+      "visible_frames": 105,
+      "reinitializations": 2,
+      "lost_frames": 15,
+      "post_occlusion_first_iou_half_frame": 65,
+      "online_positive_updates": 642,
+      "online_negative_updates": 1029
+    },
+    "synthetic_learning_off": {
+      "input": "controlled synthetic textured target with ground truth and full occlusion",
+      "frames": 120,
+      "learning_enabled": false,
+      "ground_truth_supplied": true,
+      "mean_iou_visible": 0.934852,
+      "visible_iou_at_least_half": 105,
+      "visible_frames": 105,
+      "reinitializations": 2,
+      "lost_frames": 15,
+      "post_occlusion_first_iou_half_frame": 65,
+      "online_positive_updates": 0,
+      "online_negative_updates": 0
+    },
+    "recorded_camel": {
+      "input": "recorded real video; no ground truth supplied",
+      "frames": 90,
+      "learning_enabled": true,
+      "ground_truth_supplied": false,
+      "mean_iou_visible": null,
+      "visible_iou_at_least_half": null,
+      "visible_frames": null,
+      "reinitializations": 4,
+      "lost_frames": 0,
+      "post_occlusion_first_iou_half_frame": null,
+      "online_positive_updates": 2653,
+      "online_negative_updates": 8744
+    },
+    "original_negative_controls": [
+      {
+        "case": "negative",
+        "returncode": 1,
+        "expected_diagnostic_observed": true
+      },
+      {
+        "case": "borrowed",
+        "returncode": -6,
+        "expected_diagnostic_observed": true
+      },
+      {
+        "case": "endpoint",
+        "returncode": -6,
+        "expected_diagnostic_observed": true
+      }
+    ]
+  },
+  "synthetic_acceptance_gates": {
+    "minimum_run_frames": 70,
+    "mean_visible_iou_greater_than": 0.75,
+    "visible_fraction_iou_at_least_half_minimum": 0.9,
+    "first_post_occlusion_iou_half_frame_range_inclusive": [
+      65,
+      70
+    ],
+    "at_least_one_detector_reinitialization": true,
+    "each_fully_hidden_frame_requires_lost_box": true,
+    "online_on_requires_positive_and_negative_counts": true,
+    "online_off_requires_zero_update_counts": true
+  },
+  "limits": [
+    "No modern iOS app/device capture build",
+    "No full reference-TLD equivalence",
+    "Only no-blur path validated",
+    "One controlled synthetic trajectory; no general tracking benchmark",
+    "Recorded video has no supplied evaluation ground truth",
+    "No cross-platform bitwise parity",
+    "Single live TLD instance per process"
+  ],
+  "editorial_review": {
+    "actual_claude_reviews_completed": 2,
+    "tools_disabled": true,
+    "second_review_verdict": "no material issue; minor qualification edits applied",
+    "runtime_coverage_added": false
+  },
+  "published_assets": {
+    "camel-tracking.gif": {
+      "bytes": 830284,
+      "sha256": "94665dae1ae2d2aa038bdc922a6b1d12c68078d8b62a7a89a636b7549c5b9385"
+    },
+    "camel-tracking.mp4": {
+      "bytes": 190351,
+      "sha256": "8a02b808a8696ac4ef103bf7f2c22fe3f6690c4112e0ed3aef04070783698e6e"
+    },
+    "proof.png": {
+      "bytes": 178730,
+      "sha256": "f9814fb5c06535d0b782f64e3c0c70ed6ae28108b6a52553086f1a5c74b7dfce"
+    },
+    "synthetic-tracking.gif": {
+      "bytes": 154667,
+      "sha256": "325769a5e742d3affacaf3fe3acbd63395a90b009d96fdc7f4d0e0107aa9430e"
+    },
+    "synthetic-tracking.mp4": {
+      "bytes": 62389,
+      "sha256": "2a4e59601b6926d5f4a9adda1796481b554c515144829c7c381be3ee266fc37f"
+    }
+  }
+}

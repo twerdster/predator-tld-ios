@@ -1,0 +1,7 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aaron/project-revivals-20261114/predator/build
+Consolidate compiler generated dependencies of target predator_core
+[ 81%] Built target predator_core
+Consolidate compiler generated dependencies of target predator_demo
+[100%] Built target predator_demo

@@ -1,0 +1,12 @@
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.1.sdk -x c -c /dev/null
+
+Build description signature: ee535f374111ad6f5f26e46bcb2d409f
+Build description path: /Users/aaron/.codex/project-revivals-2026-11-14/predator/original-snapshot-build/Build/Intermediates.noindex/XCBuildData/ee535f374111ad6f5f26e46bcb2d409f.xcbuilddata
+/Users/aaron/.codex/project-revivals-2026-11-14/predator/original-snapshot/Predator.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 6.0, but the range of supported deployment target versions is 12.0 to 18.1.99. (in target 'Predator' from project 'Predator')
+error: The i386 architecture is deprecated. You should update your ARCHS build setting to remove the i386 architecture. (in target 'Predator' from project 'Predator')
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Building project Predator with scheme Predator and configuration Debug
+(1 failure)

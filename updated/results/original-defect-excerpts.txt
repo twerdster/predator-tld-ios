@@ -1,0 +1,36 @@
+CASE negative
+Original positive posterior=1 after negative update=1 (correct fern counting expects 0.5)
+CASE borrowed
+=================================================================
+==1311566==ERROR: AddressSanitizer: alloc-dealloc-mismatch (operator new vs free) on 0x521000000100
+    #0 0x7bb856ab4537 in __interceptor_free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:127
+    #1 0x56f012803cf1 in TldImage::~TldImage() /home/aaron/project-revivals-20261114/predator/source/TldImage.cpp:157
+    #2 0x56f01280410c in main /home/aaron/project-revivals-20261114/predator/updated/tests/original_witness.cpp:14
+    #3 0x7bb855029d8f in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x7bb855029e3f in __libc_start_main_impl ../csu/libc-start.c:392
+    #5 0x56f0127fd8a4 in _start (/home/aaron/project-revivals-20261114/predator/original-witness/original_witness_asan+0x108a4)
+
+0x521000000100 is located 0 bytes inside of 4096-byte region [0x521000000100,0x521000001100)
+allocated by thread T0 here:
+    #0 0x7bb856ab61e7 in operator new(unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:99
+    #1 0x56f012806bb8 in __gnu_cxx::new_allocator<unsigned char>::allocate(unsigned long, void const*) /usr/include/c++/11/ext/new_allocator.h:127
+    #2 0x56f012806ad7 in std::allocator_traits<std::allocator<unsigned char> >::allocate(std::allocator<unsigned char>&, unsigned long) /usr/include/c++/11/bits/alloc_traits.h:464
+    #3 0x56f0128069b5 in std::_Vector_base<unsigned char, std::allocator<unsigned char> >::_M_allocate(unsigned long) /usr/include/c++/11/bits/stl_vector.h:346
+    #4 0x56f0128064cb in std::_Vector_base<unsigned char, std::allocator<unsigned char> >::_M_create_storage(unsigned long) /usr/include/c++/11/bits/stl_vector.h:361
+CASE endpoint
+=================================================================
+==1311567==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x521000001140 at pc 0x60837544745a bp 0x7ffc4a3e48a0 sp 0x7ffc4a3e4890
+READ of size 1 at 0x521000001140 thread T0
+    #0 0x608375447459 in PointTest::test(TldImage*, int, int, int, int) /home/aaron/project-revivals-20261114/predator/source/PointTest.cpp:35
+    #1 0x60837544a26d in main /home/aaron/project-revivals-20261114/predator/updated/tests/original_witness.cpp:23
+    #2 0x762070e29d8f in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x762070e29e3f in __libc_start_main_impl ../csu/libc-start.c:392
+    #4 0x6083754438a4 in _start (/home/aaron/project-revivals-20261114/predator/original-witness/original_witness_asan+0x108a4)
+
+0x521000001140 is located 64 bytes to the right of 4096-byte region [0x521000000100,0x521000001100)
+allocated by thread T0 here:
+    #0 0x7620728b4887 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:145
+    #1 0x60837544a160 in main /home/aaron/project-revivals-20261114/predator/updated/tests/original_witness.cpp:17
+    #2 0x762070e29d8f in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /home/aaron/project-revivals-20261114/predator/source/PointTest.cpp:35 in PointTest::test(TldImage*, int, int, int, int)

@@ -1,0 +1,17 @@
+[
+  {
+    "case": "negative",
+    "returncode": 1,
+    "expected_diagnostic_observed": true
+  },
+  {
+    "case": "borrowed",
+    "returncode": 1,
+    "expected_diagnostic_observed": true
+  },
+  {
+    "case": "endpoint",
+    "returncode": 1,
+    "expected_diagnostic_observed": true
+  }
+]

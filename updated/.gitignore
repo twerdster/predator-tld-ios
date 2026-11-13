@@ -1,0 +1,7 @@
+# Local Python/build/run products; recorded results and assets remain versioned.
+__pycache__/
+*.py[cod]
+/build/
+/asan/
+/output/
+/outputs/
