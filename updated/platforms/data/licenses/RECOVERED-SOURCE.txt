@@ -1,0 +1,19 @@
+Predator: recovered student tracker, updated native frontends
+
+Original student project: Marian Mansour and Majd Srour.
+Recovered TLD sources retain Zdenek Kalal's 2011 GPL-3.0-or-later notices.
+The original report and README carry differing supervisor/UI credits;
+those historical records remain unchanged in the source repository.
+
+The maintained sources, native adapters/frontends and shared Session adapter are
+available at https://github.com/twerdster/predator-tld-ios under updated/.
+The preserved original source is pinned to upstream commit
+a63f005bf34b041ff0dd985a8e18083f2d3065eb.
+
+The native frontends is updated work prepared for Aaron Wetzler. It uses the
+actual recovered custom Lucas-Kanade, detector and fern code. It does not
+load saved tracking results or substitute an OpenCV tracking algorithm.
+
+GPL-3.0 text is bundled alongside this file. OpenCV, its dependencies and
+platform wrappers retain their own accompanying notices. Recording terms
+are separate; see DAVIS-CAMEL.txt and DATA_PROVENANCE.json.

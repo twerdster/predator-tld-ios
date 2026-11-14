@@ -1,0 +1,13 @@
+{
+  "platform": "Linux Tk / recovered native C++",
+  "source": "synthetic",
+  "input": "Synthetic occlusion fixture",
+  "frames": 120,
+  "learning_mode": "on",
+  "mean_visible_iou": 0.9463633333333328,
+  "visible_iou_at_least_half": 105,
+  "lost_frames": 15,
+  "reinitializations": 2,
+  "positive_updates": 664,
+  "negative_updates": 848
+}

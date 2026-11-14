@@ -1,0 +1,13 @@
+{
+  "frames" : 90,
+  "input" : "Recorded DAVIS camel · CC BY-NC 4.0",
+  "visible_iou_at_least_half" : null,
+  "learning_mode" : "on",
+  "platform" : "macOS AppKit",
+  "visible_frames" : null,
+  "mean_visible_iou" : null,
+  "reinitializations" : 4,
+  "positive_updates" : 2653,
+  "lost_frames" : 0,
+  "negative_updates" : 8744
+}

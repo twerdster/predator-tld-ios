@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-14",
+  "platform": "Android Java/JNI on physical Pixel 2 / Android 10",
+  "input": "Recorded DAVIS camel; CC BY-NC 4.0",
+  "frames": 90,
+  "first_frame": 0,
+  "last_frame": 89,
+  "frames_contiguous": true,
+  "done": true,
+  "learning_mode": "on",
+  "lost_frames": 0,
+  "reinitializations": 6,
+  "positive_updates": 2369,
+  "negative_updates": 8109,
+  "mean_visible_iou": null,
+  "visible_iou_at_least_half": null,
+  "all_recorded_iou_null": true,
+  "derived_from": "android-camel-trace.jsonl",
+  "derivation": "Count event=frame records; sum !valid, reinitialized and per-frame positive_updates/negative_updates; require frames 0..89 and final done=true. Online counts exclude initialization training.",
+  "scope": "Runtime completion and algorithm decision counters; no recorded-video accuracy measurement"
+}

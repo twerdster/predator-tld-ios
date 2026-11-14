@@ -1,0 +1,287 @@
+{
+  "method": "macOS screencapture of running Predator AppKit window only",
+  "window_title": "Predator \u00b7 updated native TLD on macOS",
+  "requested_fps": 5,
+  "frames": [
+    {
+      "image": "00000.png",
+      "elapsed_seconds": 0.1498934170231223
+    },
+    {
+      "image": "00001.png",
+      "elapsed_seconds": 0.3880567499436438
+    },
+    {
+      "image": "00002.png",
+      "elapsed_seconds": 0.5682778749614954
+    },
+    {
+      "image": "00003.png",
+      "elapsed_seconds": 0.760732916998677
+    },
+    {
+      "image": "00004.png",
+      "elapsed_seconds": 0.9859971669502556
+    },
+    {
+      "image": "00005.png",
+      "elapsed_seconds": 1.1653195839608088
+    },
+    {
+      "image": "00006.png",
+      "elapsed_seconds": 1.3814585419604555
+    },
+    {
+      "image": "00007.png",
+      "elapsed_seconds": 1.5717271249741316
+    },
+    {
+      "image": "00008.png",
+      "elapsed_seconds": 1.785864666919224
+    },
+    {
+      "image": "00009.png",
+      "elapsed_seconds": 1.9659112920053303
+    },
+    {
+      "image": "00010.png",
+      "elapsed_seconds": 2.195809750002809
+    },
+    {
+      "image": "00011.png",
+      "elapsed_seconds": 2.3681862090015784
+    },
+    {
+      "image": "00012.png",
+      "elapsed_seconds": 2.634321374935098
+    },
+    {
+      "image": "00013.png",
+      "elapsed_seconds": 2.7825168749550357
+    },
+    {
+      "image": "00014.png",
+      "elapsed_seconds": 2.9850079589523375
+    },
+    {
+      "image": "00015.png",
+      "elapsed_seconds": 3.1598757499596104
+    },
+    {
+      "image": "00016.png",
+      "elapsed_seconds": 3.358033624943346
+    },
+    {
+      "image": "00017.png",
+      "elapsed_seconds": 3.56284191692248
+    },
+    {
+      "image": "00018.png",
+      "elapsed_seconds": 3.7779967499664053
+    },
+    {
+      "image": "00019.png",
+      "elapsed_seconds": 3.9688757919939235
+    },
+    {
+      "image": "00020.png",
+      "elapsed_seconds": 4.167930583935231
+    },
+    {
+      "image": "00021.png",
+      "elapsed_seconds": 4.377689083921723
+    },
+    {
+      "image": "00022.png",
+      "elapsed_seconds": 4.556059208931401
+    },
+    {
+      "image": "00023.png",
+      "elapsed_seconds": 4.785214375006035
+    },
+    {
+      "image": "00024.png",
+      "elapsed_seconds": 4.962874499964528
+    },
+    {
+      "image": "00025.png",
+      "elapsed_seconds": 5.179918541922234
+    },
+    {
+      "image": "00026.png",
+      "elapsed_seconds": 5.369977709022351
+    },
+    {
+      "image": "00027.png",
+      "elapsed_seconds": 5.569110749987885
+    },
+    {
+      "image": "00028.png",
+      "elapsed_seconds": 5.76117199996952
+    },
+    {
+      "image": "00029.png",
+      "elapsed_seconds": 5.985711041954346
+    },
+    {
+      "image": "00030.png",
+      "elapsed_seconds": 6.167443708982319
+    },
+    {
+      "image": "00031.png",
+      "elapsed_seconds": 6.354956583934836
+    },
+    {
+      "image": "00032.png",
+      "elapsed_seconds": 6.564129624981433
+    },
+    {
+      "image": "00033.png",
+      "elapsed_seconds": 6.779429416987114
+    },
+    {
+      "image": "00034.png",
+      "elapsed_seconds": 6.968310083961114
+    },
+    {
+      "image": "00035.png",
+      "elapsed_seconds": 7.179489000001922
+    },
+    {
+      "image": "00036.png",
+      "elapsed_seconds": 7.3729282499989495
+    },
+    {
+      "image": "00037.png",
+      "elapsed_seconds": 7.573149083997123
+    },
+    {
+      "image": "00038.png",
+      "elapsed_seconds": 7.779404166969471
+    },
+    {
+      "image": "00039.png",
+      "elapsed_seconds": 7.955451666959561
+    },
+    {
+      "image": "00040.png",
+      "elapsed_seconds": 8.16408599994611
+    },
+    {
+      "image": "00041.png",
+      "elapsed_seconds": 8.375016666948795
+    },
+    {
+      "image": "00042.png",
+      "elapsed_seconds": 8.572257958934642
+    },
+    {
+      "image": "00043.png",
+      "elapsed_seconds": 8.76085979200434
+    },
+    {
+      "image": "00044.png",
+      "elapsed_seconds": 8.98751424998045
+    },
+    {
+      "image": "00045.png",
+      "elapsed_seconds": 9.152094041928649
+    },
+    {
+      "image": "00046.png",
+      "elapsed_seconds": 9.355680624954402
+    },
+    {
+      "image": "00047.png",
+      "elapsed_seconds": 9.579109292011708
+    },
+    {
+      "image": "00048.png",
+      "elapsed_seconds": 9.766671083983965
+    },
+    {
+      "image": "00049.png",
+      "elapsed_seconds": 9.962131417007186
+    },
+    {
+      "image": "00050.png",
+      "elapsed_seconds": 10.17930299998261
+    },
+    {
+      "image": "00051.png",
+      "elapsed_seconds": 10.376294458983466
+    },
+    {
+      "image": "00052.png",
+      "elapsed_seconds": 10.556221709004603
+    },
+    {
+      "image": "00053.png",
+      "elapsed_seconds": 10.791905999998562
+    },
+    {
+      "image": "00054.png",
+      "elapsed_seconds": 10.960040208999999
+    },
+    {
+      "image": "00055.png",
+      "elapsed_seconds": 11.164646334014833
+    },
+    {
+      "image": "00056.png",
+      "elapsed_seconds": 11.380515999975614
+    },
+    {
+      "image": "00057.png",
+      "elapsed_seconds": 11.55797404202167
+    },
+    {
+      "image": "00058.png",
+      "elapsed_seconds": 11.779566708952188
+    },
+    {
+      "image": "00059.png",
+      "elapsed_seconds": 11.98469670896884
+    },
+    {
+      "image": "00060.png",
+      "elapsed_seconds": 12.154815917019732
+    },
+    {
+      "image": "00061.png",
+      "elapsed_seconds": 12.379709791974165
+    },
+    {
+      "image": "00062.png",
+      "elapsed_seconds": 12.578071458963677
+    },
+    {
+      "image": "00063.png",
+      "elapsed_seconds": 12.76592116698157
+    },
+    {
+      "image": "00064.png",
+      "elapsed_seconds": 12.990395667031407
+    },
+    {
+      "image": "00065.png",
+      "elapsed_seconds": 13.162756541976705
+    },
+    {
+      "image": "00066.png",
+      "elapsed_seconds": 13.374981374945492
+    },
+    {
+      "image": "00067.png",
+      "elapsed_seconds": 13.5710617499426
+    },
+    {
+      "image": "00068.png",
+      "elapsed_seconds": 13.777450209017843
+    },
+    {
+      "image": "00069.png",
+      "elapsed_seconds": 13.973039999953471
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "executable_sha256": "37669ec4cbb4e70a19af01fca6af459a2c0b39e2b119bcc3cca03dcba72daeaf",
+  "platform": "iOS18.0.1 on physical iPhone12",
+  "capture_label": "predator-ios-frozen",
+  "launch_arguments": [
+    "--autoplay",
+    "--camel"
+  ]
+}

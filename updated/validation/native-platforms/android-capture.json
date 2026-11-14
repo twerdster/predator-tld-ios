@@ -1,0 +1,92 @@
+{
+  "platform": "android",
+  "capture": "adb screenrecord physical Pixel2 display",
+  "source_sha256": "4422fe97b61c90f4fab550e5d3f666c7041157168437b6860f1e2076bd19367b",
+  "source_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920
+      }
+    ],
+    "format": {
+      "duration": "30.273911",
+      "size": "16694260"
+    }
+  },
+  "source_start_seconds": 1.0,
+  "excerpt_duration_seconds": 25.892533,
+  "crop": {
+    "top": 64,
+    "bottom": 126
+  },
+  "audio_removed": true,
+  "playback": "capture timing retained; input replay speed follows labels in app",
+  "files": [
+    {
+      "path": "updated/assets/android-native.mp4",
+      "bytes": 1335622,
+      "sha256": "f8b03ef72de898d3fe1a2373875c1dd8282834cac6c22f8c62d92a5038f00512"
+    },
+    {
+      "path": "updated/assets/android-native.gif",
+      "bytes": 1187097,
+      "sha256": "741532ff4b2f205b49a08743b6367f4f2877b313ba16045556ba8cbb15bf7756"
+    },
+    {
+      "path": "updated/assets/android-native.png",
+      "bytes": 419378,
+      "sha256": "d67c81c63e4af561bdf5bcb8c5359e05b2030bc3844db3b960c94e6a1a82ed7a"
+    }
+  ],
+  "requested_excerpt_duration_seconds": 26.0,
+  "output_mp4_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 600,
+        "height": 962,
+        "avg_frame_rate": "855000/97097"
+      }
+    ],
+    "format": {
+      "duration": "25.892533",
+      "size": "1335622"
+    }
+  },
+  "gif_excerpt_duration_seconds": 11.0,
+  "gif_presentation_fps": 6,
+  "runtime_completion_is_separate_from_excerpt": true,
+  "visual_qa": {
+    "method": "Direct inspection of sampled first, middle and final MP4/GIF frames plus PNG",
+    "mp4_sample_times_seconds": [
+      0,
+      0.2,
+      0.5,
+      1,
+      2,
+      4,
+      8,
+      12,
+      22.8925,
+      25.6925
+    ],
+    "gif_sample_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      16,
+      22,
+      33,
+      44,
+      65
+    ],
+    "result": "Correct Predator UI in all inspected samples; iOS leading preceding-app/transition excluded"
+  }
+}

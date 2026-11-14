@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-14",
+  "scope": "Signed arm64 iPhoneOS compile/link/signing only; physical runtime/capture is recorded separately by the device runner",
+  "bundle_identifier": "org.awetzler.predator.updated",
+  "toolchain": "Xcode 16.1, iPhoneOS 18.1 SDK",
+  "deployment_target_declared": "iOS 15.0",
+  "tested_build_architecture": "arm64",
+  "opencv": "Official 4.12.0 iOS framework; recovered TLD uses core/imgproc primitives",
+  "build": "passed",
+  "signing": "passed using maintainer-private configuration; identifiers omitted",
+  "binary_sha256": "37669ec4cbb4e70a19af01fca6af459a2c0b39e2b119bcc3cca03dcba72daeaf",
+  "raw_input_sha256": "975588cf00538d8391dbd67f905c16becc4fc5abb44aa81c2bbfbce43286f379",
+  "native_source_sha256": {
+    "updated/platforms/common/PredatorSession.cpp": "74177a1db7448743053aaf2ccb881d270b75b22b4091bff36ebdbd42ae82bbd6",
+    "updated/platforms/common/PredatorSession.h": "dabeb80af6cd6c078c82b43be39b9a28d065a3f91b735833dd3dcddf9a7dc0b8",
+    "updated/platforms/ios/App/main.mm": "21dbe6bd1246e22f6c8b25aff1a47166896898c32daa295ff9b55e4b566e5b67",
+    "updated/platforms/ios/CMakeLists.txt": "b719a52656b69878fcf2aeffa4c7ffd682c38a2f103c59189c4e5802f118d25a"
+  },
+  "camera_capture": false,
+  "historical_ui_restored": false,
+  "original_source_changed": false,
+  "signed_bundle_license_files": 34,
+  "physical_runtime_record": "../../validation/native-platforms/ios-result.json",
+  "physical_artifact_record": "../../validation/native-platforms/ios-artifact.json",
+  "note": "This file records build/signing. The linked physical-device records identify the same frozen executable and separately establish runtime evidence."
+}

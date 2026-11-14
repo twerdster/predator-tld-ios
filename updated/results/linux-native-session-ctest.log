@@ -1,0 +1,10 @@
+Internal ctest changing into directory: /home/aaron/project-revivals-20261114/predator/build
+Test project /home/aaron/project-revivals-20261114/predator/build
+    Start 1: recovered_core
+1/2 Test #1: recovered_core ...................   Passed    0.01 sec
+    Start 2: native_session
+2/2 Test #2: native_session ...................   Passed    2.16 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   2.17 sec

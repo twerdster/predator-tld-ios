@@ -1,0 +1,9 @@
+Test project /Users/aaron/.codex/project-revivals-2026-11-14/predator/asan
+    Start 1: recovered_core
+1/2 Test #1: recovered_core ...................   Passed    0.25 sec
+    Start 2: native_session
+2/2 Test #2: native_session ...................   Passed   60.48 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =  60.73 sec

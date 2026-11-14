@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-14",
+  "platform": "Android10 on physical Pixel2",
+  "application_id": "org.awetzler.predator.updated",
+  "apk_filename": "predator-updated-final.apk",
+  "apk_bytes": 17061625,
+  "apk_sha256": "6f6179c7a179c95a218ef9fe24549fb9a0f1aff7fb4844050647c5de0d826931",
+  "launch_activity": "org.awetzler.predator.updated/.MainActivity",
+  "launch_workflow": "force-stop before explicit launch",
+  "launch_extras": {
+    "source": "camel",
+    "learning": true,
+    "autoRun": true
+  },
+  "runtime_trace": "android-camel-trace.jsonl",
+  "runtime_trace_sha256": "b313bf2675bec9c52212526379c6ec6bc18800737007f7dd82ab7f18e01f3bbb",
+  "capture_record": "android-capture.json",
+  "scope": "Actual recorded-input autoplay on the named physical device; no camera input or broader API/ABI/lifecycle validation"
+}

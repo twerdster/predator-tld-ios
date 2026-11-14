@@ -1,0 +1,14 @@
+{
+  "mean_visible_iou" : null,
+  "learning_mode" : "on",
+  "visible_iou_at_least_half" : null,
+  "lost_frames" : 0,
+  "reinitializations" : 4,
+  "positive_updates" : 2653,
+  "platform" : "iOS UIKit",
+  "input" : "Recorded DAVIS camel · CC BY-NC 4.0",
+  "online_updates_last_frame" : true,
+  "frames" : 90,
+  "negative_updates" : 8744,
+  "visible_frames" : null
+}

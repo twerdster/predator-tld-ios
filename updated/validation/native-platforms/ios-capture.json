@@ -1,0 +1,94 @@
+{
+  "platform": "ios",
+  "capture": "USB AVFoundation physical iPhone display",
+  "source_sha256": "957b3ad97164c9e66040d9e8ff63f2806730b944a906b4ebf644bd279eb6d881",
+  "source_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1170,
+        "height": 2532
+      }
+    ],
+    "format": {
+      "duration": "29.336650",
+      "size": "43429036"
+    }
+  },
+  "source_start_seconds": 3.0,
+  "excerpt_duration_seconds": 26.359667,
+  "crop": {
+    "top": 120,
+    "bottom": 44
+  },
+  "audio_removed": true,
+  "poster_offset_in_excerpt_seconds": 8,
+  "playback": "capture timing retained; input replay speed follows labels in app",
+  "files": [
+    {
+      "path": "updated/assets/ios-native.mp4",
+      "bytes": 772071,
+      "sha256": "1af84a060bf25266e48e8edf374d303363fdd552a967ee7e7b1d630274139f43"
+    },
+    {
+      "path": "updated/assets/ios-native.gif",
+      "bytes": 1383827,
+      "sha256": "25760355db411a97b89cb07aa579709c817abd67e9877404a3d7b2316a30f85d"
+    },
+    {
+      "path": "updated/assets/ios-native.png",
+      "bytes": 329463,
+      "sha256": "9686ea4f0223f67be0cb65c9fc3fcebc01d1de81d82656855d77502400efb075"
+    }
+  ],
+  "requested_excerpt_duration_seconds": 28.0,
+  "output_mp4_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 600,
+        "height": 1214,
+        "avg_frame_rate": "29180000/527527"
+      }
+    ],
+    "format": {
+      "duration": "26.359667",
+      "size": "772071"
+    }
+  },
+  "gif_excerpt_duration_seconds": 11.0,
+  "gif_presentation_fps": 6,
+  "leading_frames_excluded_reason": "The excerpt starts after the preceding app and app-switch transition; only the Predator UI is retained.",
+  "runtime_completion_is_separate_from_excerpt": true,
+  "visual_qa": {
+    "method": "Direct inspection of sampled first, middle and final MP4/GIF frames plus PNG",
+    "mp4_sample_times_seconds": [
+      0,
+      0.2,
+      0.5,
+      1,
+      2,
+      4,
+      8,
+      12,
+      23.3597,
+      26.1597
+    ],
+    "gif_sample_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      16,
+      22,
+      33,
+      44,
+      65
+    ],
+    "result": "Correct Predator UI in all inspected samples; iOS leading preceding-app/transition excluded"
+  }
+}

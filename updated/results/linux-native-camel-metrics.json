@@ -1,0 +1,13 @@
+{
+  "platform": "Linux Tk / recovered native C++",
+  "source": "camel",
+  "input": "Recorded DAVIS camel \u00b7 CC BY-NC 4.0",
+  "frames": 90,
+  "learning_mode": "on",
+  "mean_visible_iou": null,
+  "visible_iou_at_least_half": null,
+  "lost_frames": 4,
+  "reinitializations": 4,
+  "positive_updates": 3250,
+  "negative_updates": 10610
+}

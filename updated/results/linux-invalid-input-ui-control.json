@@ -1,0 +1,21 @@
+{
+  "scope": "Actual Tk startup on Xvfb with missing recorded input: old UI incorrectly autoplays synthetic; corrected UI does not start computation",
+  "observed": [
+    {
+      "version": "pre_fix",
+      "requested_source": "camel",
+      "raw_input_exists": false,
+      "native_frames_started": 16,
+      "observed_input_labels": [
+        "Synthetic occlusion fixture"
+      ]
+    },
+    {
+      "version": "fixed",
+      "requested_source": "camel",
+      "raw_input_exists": false,
+      "native_frames_started": 0,
+      "observed_input_labels": []
+    }
+  ]
+}

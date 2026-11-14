@@ -1,0 +1,3 @@
+Expected failure of the pre-review 2026 Session adapter, not the preserved student code.
+The same invalid-input preservation assertion passes after atomic loading was added.
+FAIL failed recorded reset must preserve the prior session

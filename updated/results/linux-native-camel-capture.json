@@ -1,0 +1,362 @@
+{
+  "method": "Pillow ImageGrab XCB screenshot of running Tk window on isolated Xvfb :97",
+  "bbox": [
+    20,
+    20,
+    1100,
+    750
+  ],
+  "requested_fps": 5,
+  "frames": [
+    {
+      "image": "00000.png",
+      "elapsed_seconds": 0.023305064998567104,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00001.png",
+      "elapsed_seconds": 0.22049433999927714,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00002.png",
+      "elapsed_seconds": 0.4199519389658235,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00003.png",
+      "elapsed_seconds": 0.6206977019901387,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00004.png",
+      "elapsed_seconds": 0.8198886709869839,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00005.png",
+      "elapsed_seconds": 1.019760041963309,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00006.png",
+      "elapsed_seconds": 1.2203095539589413,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00007.png",
+      "elapsed_seconds": 1.4199223939795047,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00008.png",
+      "elapsed_seconds": 1.620136895973701,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00009.png",
+      "elapsed_seconds": 1.8198038159753196,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00010.png",
+      "elapsed_seconds": 2.021238569985144,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00011.png",
+      "elapsed_seconds": 2.219883307989221,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00012.png",
+      "elapsed_seconds": 2.421013041981496,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00013.png",
+      "elapsed_seconds": 2.6209282529889606,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00014.png",
+      "elapsed_seconds": 2.8206033029709943,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00015.png",
+      "elapsed_seconds": 3.020202932995744,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00016.png",
+      "elapsed_seconds": 3.220513174950611,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00017.png",
+      "elapsed_seconds": 3.4219026989885606,
+      "native_frame_observed": null
+    },
+    {
+      "image": "00018.png",
+      "elapsed_seconds": 3.6206345969694667,
+      "native_frame_observed": 0
+    },
+    {
+      "image": "00019.png",
+      "elapsed_seconds": 3.820722008997109,
+      "native_frame_observed": 2
+    },
+    {
+      "image": "00020.png",
+      "elapsed_seconds": 4.021600771986414,
+      "native_frame_observed": 4
+    },
+    {
+      "image": "00021.png",
+      "elapsed_seconds": 4.220808830985334,
+      "native_frame_observed": 6
+    },
+    {
+      "image": "00022.png",
+      "elapsed_seconds": 4.42315318796318,
+      "native_frame_observed": 7
+    },
+    {
+      "image": "00023.png",
+      "elapsed_seconds": 4.626002895995043,
+      "native_frame_observed": 9
+    },
+    {
+      "image": "00024.png",
+      "elapsed_seconds": 4.821458525955677,
+      "native_frame_observed": 11
+    },
+    {
+      "image": "00025.png",
+      "elapsed_seconds": 5.022275358962361,
+      "native_frame_observed": 13
+    },
+    {
+      "image": "00026.png",
+      "elapsed_seconds": 5.223012511967681,
+      "native_frame_observed": 15
+    },
+    {
+      "image": "00027.png",
+      "elapsed_seconds": 5.4221915119560435,
+      "native_frame_observed": 16
+    },
+    {
+      "image": "00028.png",
+      "elapsed_seconds": 5.620125577959698,
+      "native_frame_observed": 18
+    },
+    {
+      "image": "00029.png",
+      "elapsed_seconds": 5.822869465977419,
+      "native_frame_observed": 20
+    },
+    {
+      "image": "00030.png",
+      "elapsed_seconds": 6.020613221975509,
+      "native_frame_observed": 22
+    },
+    {
+      "image": "00031.png",
+      "elapsed_seconds": 6.22009060200071,
+      "native_frame_observed": 23
+    },
+    {
+      "image": "00032.png",
+      "elapsed_seconds": 6.424750093952753,
+      "native_frame_observed": 25
+    },
+    {
+      "image": "00033.png",
+      "elapsed_seconds": 6.61990207398776,
+      "native_frame_observed": 27
+    },
+    {
+      "image": "00034.png",
+      "elapsed_seconds": 6.82059397699777,
+      "native_frame_observed": 29
+    },
+    {
+      "image": "00035.png",
+      "elapsed_seconds": 7.0221352219814435,
+      "native_frame_observed": 31
+    },
+    {
+      "image": "00036.png",
+      "elapsed_seconds": 7.219779706967529,
+      "native_frame_observed": 32
+    },
+    {
+      "image": "00037.png",
+      "elapsed_seconds": 7.420744050992653,
+      "native_frame_observed": 34
+    },
+    {
+      "image": "00038.png",
+      "elapsed_seconds": 7.622435936005786,
+      "native_frame_observed": 36
+    },
+    {
+      "image": "00039.png",
+      "elapsed_seconds": 7.820238311949652,
+      "native_frame_observed": 38
+    },
+    {
+      "image": "00040.png",
+      "elapsed_seconds": 8.02086062496528,
+      "native_frame_observed": 40
+    },
+    {
+      "image": "00041.png",
+      "elapsed_seconds": 8.220151685003657,
+      "native_frame_observed": 41
+    },
+    {
+      "image": "00042.png",
+      "elapsed_seconds": 8.420472126977984,
+      "native_frame_observed": 43
+    },
+    {
+      "image": "00043.png",
+      "elapsed_seconds": 8.62025325797731,
+      "native_frame_observed": 45
+    },
+    {
+      "image": "00044.png",
+      "elapsed_seconds": 8.820906090957578,
+      "native_frame_observed": 47
+    },
+    {
+      "image": "00045.png",
+      "elapsed_seconds": 9.0216780139599,
+      "native_frame_observed": 49
+    },
+    {
+      "image": "00046.png",
+      "elapsed_seconds": 9.220936473982874,
+      "native_frame_observed": 50
+    },
+    {
+      "image": "00047.png",
+      "elapsed_seconds": 9.42072257399559,
+      "native_frame_observed": 52
+    },
+    {
+      "image": "00048.png",
+      "elapsed_seconds": 9.621528588002548,
+      "native_frame_observed": 54
+    },
+    {
+      "image": "00049.png",
+      "elapsed_seconds": 9.820379166980274,
+      "native_frame_observed": 56
+    },
+    {
+      "image": "00050.png",
+      "elapsed_seconds": 10.022758953971788,
+      "native_frame_observed": 58
+    },
+    {
+      "image": "00051.png",
+      "elapsed_seconds": 10.220710670982953,
+      "native_frame_observed": 59
+    },
+    {
+      "image": "00052.png",
+      "elapsed_seconds": 10.420974452979863,
+      "native_frame_observed": 61
+    },
+    {
+      "image": "00053.png",
+      "elapsed_seconds": 10.6205616829684,
+      "native_frame_observed": 63
+    },
+    {
+      "image": "00054.png",
+      "elapsed_seconds": 10.822070977999829,
+      "native_frame_observed": 65
+    },
+    {
+      "image": "00055.png",
+      "elapsed_seconds": 11.023282961978111,
+      "native_frame_observed": 67
+    },
+    {
+      "image": "00056.png",
+      "elapsed_seconds": 11.220650307950564,
+      "native_frame_observed": 68
+    },
+    {
+      "image": "00057.png",
+      "elapsed_seconds": 11.420829749957193,
+      "native_frame_observed": 70
+    },
+    {
+      "image": "00058.png",
+      "elapsed_seconds": 11.621346711996011,
+      "native_frame_observed": 72
+    },
+    {
+      "image": "00059.png",
+      "elapsed_seconds": 11.821332174004056,
+      "native_frame_observed": 74
+    },
+    {
+      "image": "00060.png",
+      "elapsed_seconds": 12.019715831964277,
+      "native_frame_observed": 75
+    },
+    {
+      "image": "00061.png",
+      "elapsed_seconds": 12.220474954985548,
+      "native_frame_observed": 77
+    },
+    {
+      "image": "00062.png",
+      "elapsed_seconds": 12.420919217984192,
+      "native_frame_observed": 79
+    },
+    {
+      "image": "00063.png",
+      "elapsed_seconds": 12.620634728984442,
+      "native_frame_observed": 81
+    },
+    {
+      "image": "00064.png",
+      "elapsed_seconds": 12.820638620003592,
+      "native_frame_observed": 83
+    },
+    {
+      "image": "00065.png",
+      "elapsed_seconds": 13.020244560961146,
+      "native_frame_observed": 84
+    },
+    {
+      "image": "00066.png",
+      "elapsed_seconds": 13.221676605986431,
+      "native_frame_observed": 86
+    },
+    {
+      "image": "00067.png",
+      "elapsed_seconds": 13.420958556002006,
+      "native_frame_observed": 88
+    },
+    {
+      "image": "00068.png",
+      "elapsed_seconds": 13.621115267975256,
+      "native_frame_observed": 89
+    },
+    {
+      "image": "00069.png",
+      "elapsed_seconds": 13.820590678951703,
+      "native_frame_observed": 89
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<resources>
+    <item name="source_selector" type="id" />
+    <item name="play_pause" type="id" />
+    <item name="restart" type="id" />
+    <item name="single_step" type="id" />
+    <item name="learning" type="id" />
+    <item name="frame_view" type="id" />
+    <item name="metrics" type="id" />
+    <item name="status" type="id" />
+    <item name="credits" type="id" />
+</resources>

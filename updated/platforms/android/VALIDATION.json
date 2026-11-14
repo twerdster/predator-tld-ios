@@ -1,0 +1,311 @@
+{
+  "recorded_date": "2026-11-14",
+  "scope": "Android compile, lint and APK package checks only. Device execution is owned by the separate device runner.",
+  "application_id": "org.awetzler.predator.updated",
+  "launch_activity": "org.awetzler.predator.updated/.MainActivity",
+  "min_sdk_declared": 26,
+  "target_sdk": 34,
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "build": {
+    "status": "passed",
+    "gradle": "8.7 (actual checked-in wrapper)",
+    "android_gradle_plugin": "8.3.0",
+    "jdk": "OpenJDK 21.0.11",
+    "sdk_api": 34,
+    "build_tools": "34.0.0",
+    "ndk": "27.2.12479018",
+    "cmake": "3.22.1",
+    "opencv": "4.12.0 Android SDK; static core/imgproc",
+    "network": "offline Gradle build using private cloned caches",
+    "command": "./gradlew --offline --no-daemon --max-workers=2 --project-cache-dir <private>/project-cache -PpredatorBuildDir=<private>/build -PpredatorNativeDir=<private>/cxx assembleDebug lintDebug",
+    "lint": {
+      "errors": 0,
+      "warnings": 16,
+      "categories": [
+        "SetTextI18n (English-only interface)",
+        "DataExtractionRules (backup configuration suggestion)"
+      ]
+    },
+    "host": {
+      "os": "macOS-15.1.1-arm64-arm-64bit-Mach-O",
+      "machine": "arm64"
+    }
+  },
+  "apk": {
+    "bytes": 17061625,
+    "sha256": "6f6179c7a179c95a218ef9fe24549fb9a0f1aff7fb4844050647c5de0d826931",
+    "local_filename": "predator-updated-final.apk",
+    "kind": "debug APK; local debug signature; no signing identity recorded"
+  },
+  "native_symbols_verified": [
+    "00000000001893b4 T PredatorTracker::trackWithBackward(_IplImage*, TldImage*, double*)",
+    "0000000000186c50 T cv::majd(void const*, void const*, void*, void*, CvPoint2D32f const*, CvPoint2D32f*, int, CvSize, int, char*, float*, CvTermCriteria, int)",
+    "0000000000184fd8 T Tld::tldProcessFrame(int, int, unsigned char*, double*, double*, double, double, double, bool, bool)",
+    "000000000017cd7c T predator::Session::step(bool)"
+  ],
+  "packaged_libraries": {
+    "lib/arm64-v8a/libc++_shared.so": {
+      "bytes": 1292904,
+      "sha256": "4397241b4bd20a8e579bfb41d21107857e12985f6a01ca0c2a5f83380d1270b4"
+    },
+    "lib/armeabi-v7a/libc++_shared.so": {
+      "bytes": 872872,
+      "sha256": "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0"
+    },
+    "lib/arm64-v8a/libpredator_android.so": {
+      "bytes": 6449712,
+      "sha256": "de0a0390be2c43f65020f3c667dde3b2c927f1cad61087fa4609eb868d66843f"
+    },
+    "lib/armeabi-v7a/libpredator_android.so": {
+      "bytes": 3618040,
+      "sha256": "657e8539f44a3c0ca2a390d569bf6626ae8e182facd9871dfbc5d752d16e1635"
+    }
+  },
+  "recorded_input": {
+    "asset": "assets/camel-320x180.gray",
+    "width": 320,
+    "height": 180,
+    "frames": 90,
+    "format": "unannotated 8-bit grayscale, consecutive frames",
+    "bytes": 5184000,
+    "sha256": "975588cf00538d8391dbd67f905c16becc4fc5abb44aa81c2bbfbce43286f379",
+    "asset_matches_common_input": true,
+    "license": "CC BY-NC 4.0; DAVIS and mirror metadata",
+    "initial_roi": [
+      105,
+      35,
+      135,
+      85
+    ],
+    "data_provenance": "../../DATA_PROVENANCE.json"
+  },
+  "package_checks": {
+    "no_saved_tracking_media_or_csv": true,
+    "bundled_license_files": [
+      "assets/licenses/DATA_PROVENANCE.json",
+      "assets/licenses/GPL-3.0.txt",
+      "assets/licenses/gradle-wrapper/LICENSE",
+      "assets/licenses/gradle-wrapper/NOTICE",
+      "assets/licenses/opencv/LICENSE",
+      "assets/licenses/opencv/dependencies/SoftFloat-COPYING.txt",
+      "assets/licenses/opencv/dependencies/ade-LICENSE",
+      "assets/licenses/opencv/dependencies/cpufeatures-LICENSE",
+      "assets/licenses/opencv/dependencies/cpufeatures-README.md",
+      "assets/licenses/opencv/dependencies/flatbuffers-LICENSE.txt",
+      "assets/licenses/opencv/dependencies/ippicv-EULA.txt",
+      "assets/licenses/opencv/dependencies/ippicv-readme.htm",
+      "assets/licenses/opencv/dependencies/ippicv-third-party-programs.txt",
+      "assets/licenses/opencv/dependencies/ippiw-EULA.txt",
+      "assets/licenses/opencv/dependencies/ippiw-support.txt",
+      "assets/licenses/opencv/dependencies/ippiw-third-party-programs.txt",
+      "assets/licenses/opencv/dependencies/ittnotify-BSD-3-Clause.txt",
+      "assets/licenses/opencv/dependencies/ittnotify-GPL-2.0-only.txt",
+      "assets/licenses/opencv/dependencies/libjpeg-turbo-LICENSE.md",
+      "assets/licenses/opencv/dependencies/libjpeg-turbo-README.ijg",
+      "assets/licenses/opencv/dependencies/libjpeg-turbo-README.md",
+      "assets/licenses/opencv/dependencies/libopenjp2-LICENSE",
+      "assets/licenses/opencv/dependencies/libopenjp2-README.md",
+      "assets/licenses/opencv/dependencies/libpng-LICENSE",
+      "assets/licenses/opencv/dependencies/libpng-README",
+      "assets/licenses/opencv/dependencies/libtiff-COPYRIGHT",
+      "assets/licenses/opencv/dependencies/mscr-chi_table_LICENSE.txt",
+      "assets/licenses/opencv/dependencies/openexr-AUTHORS.ilmbase",
+      "assets/licenses/opencv/dependencies/openexr-AUTHORS.openexr",
+      "assets/licenses/opencv/dependencies/openexr-LICENSE",
+      "assets/licenses/opencv/dependencies/protobuf-LICENSE",
+      "assets/licenses/opencv/dependencies/protobuf-README.md",
+      "assets/licenses/opencv/dependencies/tbb-LICENSE.txt",
+      "assets/licenses/opencv/dependencies/tbb-README.md",
+      "assets/licenses/opencv/dependencies/vasot-LICENSE.txt",
+      "assets/licenses/DAVIS-CAMEL.txt",
+      "assets/licenses/RECOVERED-SOURCE.txt"
+    ],
+    "fresh_archive_packaging": "Repacked generated APK to avoid unused old entry space from incremental ZIP updates; no source changes."
+  },
+  "compiled_source_inputs": {
+    "updated/platforms/android/app/build.gradle": {
+      "bytes": 2019,
+      "sha256": "252c85192e11eed921d42bd75f85f4927be7beceba817ed456d68787dea19d75"
+    },
+    "updated/platforms/android/app/src/main/AndroidManifest.xml": {
+      "bytes": 728,
+      "sha256": "579e2381b16ba91f3d3dff13a4472eef8e6b5318baa8b92317112c83b1e09b34"
+    },
+    "updated/platforms/android/app/src/main/cpp/CMakeLists.txt": {
+      "bytes": 1197,
+      "sha256": "78b05acaae2de9001054b50216522c017a51072a30ff0d1068f1a5c2c1bbbb99"
+    },
+    "updated/platforms/android/app/src/main/cpp/bridge.cpp": {
+      "bytes": 4010,
+      "sha256": "86e88f011b32b8821ce2620209bcee6ed75ccf642f0b77bd985670d7ddc0f2b2"
+    },
+    "updated/platforms/android/app/src/main/java/org/awetzler/predator/updated/MainActivity.java": {
+      "bytes": 24490,
+      "sha256": "f63ff42fc6b6816a08252bf6708b5540851b0511cb8686453fed848f010effe4"
+    },
+    "updated/platforms/android/app/src/main/java/org/awetzler/predator/updated/NativeBridge.java": {
+      "bytes": 1099,
+      "sha256": "f8d28d31d84e1af8e077af6b7da31aa340821eafa936486d3743825899649e3c"
+    },
+    "updated/platforms/android/build.gradle": {
+      "bytes": 394,
+      "sha256": "bd45d53261258220ee34b015e1f55ba0b61d6b17b869dbe77c0244e68ad04a32"
+    },
+    "updated/platforms/android/gradle.properties": {
+      "bytes": 128,
+      "sha256": "2af7a4ef7bd34957b17617caa3e48a25f03f629aa3a496967d866a8eedb828e7"
+    },
+    "updated/platforms/android/settings.gradle": {
+      "bytes": 292,
+      "sha256": "6f254d7e60d30a15bff216427aff97a75acb88d08e004af6c80fcdefdbd78683"
+    },
+    "updated/platforms/common/PredatorCAPI.cpp": {
+      "bytes": 2588,
+      "sha256": "a35cc24eae848e70aa1d565a14b6eee272b6d769cf431a56bba4fe4d51a8f3c1"
+    },
+    "updated/platforms/common/PredatorSession.cpp": {
+      "bytes": 7559,
+      "sha256": "74177a1db7448743053aaf2ccb881d270b75b22b4091bff36ebdbd42ae82bbd6"
+    },
+    "updated/platforms/common/PredatorSession.h": {
+      "bytes": 934,
+      "sha256": "dabeb80af6cd6c078c82b43be39b9a28d065a3f91b735833dd3dcddf9a7dc0b8"
+    },
+    "updated/platforms/common/check_session.cpp": {
+      "bytes": 3590,
+      "sha256": "cbf27c2adc7818f7e38ea103451f547f92b74c91024e932dfd4691fcccc5af89"
+    },
+    "updated/src/Classifier.cpp": {
+      "bytes": 1776,
+      "sha256": "4edc9e8fcc83a0e6f03c7591e88811a136e08875893e7979c4972edb0f34c731"
+    },
+    "updated/src/Classifier.h": {
+      "bytes": 2169,
+      "sha256": "4f1f1726942a2f993f453f1125c0386ec0238bbc6eaa3e87592718af148781bd"
+    },
+    "updated/src/Fern.cpp": {
+      "bytes": 4135,
+      "sha256": "b779030ff3d6c63eb27199d03ac57237a9aeef9a28982d370b53d2bf32a03cc6"
+    },
+    "updated/src/Fern.h": {
+      "bytes": 2935,
+      "sha256": "99d3938863df6a423f56cbafdd8996b380897884c3d3548e21c630110da07781"
+    },
+    "updated/src/LegacyFlowFlags.h": {
+      "bytes": 282,
+      "sha256": "c749bf07edac4bda45052b66be0e463a01d5c01de4125928b22f0184c6ddba16"
+    },
+    "updated/src/Parameters.h": {
+      "bytes": 241,
+      "sha256": "27a96f72746c450590591329986bc96364037a1470d2675eaa988c6b5d3b66f4"
+    },
+    "updated/src/PointTest.cpp": {
+      "bytes": 1809,
+      "sha256": "2ec61796ff895371ae88651751ad2960de47de32b0a18ed7748f59a7b1039519"
+    },
+    "updated/src/PointTest.h": {
+      "bytes": 1587,
+      "sha256": "aed799184e426081f91fd92262ee3d4cfada7aa7e180cd4d7b4687d8c2d052cc"
+    },
+    "updated/src/Tld.cpp": {
+      "bytes": 6673,
+      "sha256": "4173ff028908d23e2665c453d2213a054a6ca950a2d54415c1e0255b3a502d41"
+    },
+    "updated/src/Tld.h": {
+      "bytes": 2417,
+      "sha256": "062bdb4c9156a9498df380ceef01317dbe7f8a2f895dc7a2ad164e2526b86027"
+    },
+    "updated/src/TldDetector.cpp": {
+      "bytes": 5931,
+      "sha256": "61b94106a82fd25fd156d01681b7494feb4874a4b31aa5473bc0beb00811b35e"
+    },
+    "updated/src/TldDetector.h": {
+      "bytes": 2995,
+      "sha256": "14fb29f7023f409dc7b9ea76d94c7b5c2acc6fe53a71e2cba3ad5d8284ebf698"
+    },
+    "updated/src/TldImage.cpp": {
+      "bytes": 5427,
+      "sha256": "f0f1bb4d706dc2b276ac78c77e75d09a418222d865bab7f4a330009727166052"
+    },
+    "updated/src/TldImage.h": {
+      "bytes": 2354,
+      "sha256": "cd05ba98d1a63941fa2ec3a62577f58490773a51e1882ab0b6237b7957ae902f"
+    },
+    "updated/src/Tracker.cpp": {
+      "bytes": 43807,
+      "sha256": "20079ff0d4e1c3bc1355d2fe121ffd930b0c5647384d9ddda655d21f1ca62bfc"
+    },
+    "updated/src/Tracker.h": {
+      "bytes": 6747,
+      "sha256": "11ae319c4cb5f6b27d8e43fe0b428e097630cf374a503830c6e59d2f772c04a3"
+    },
+    "updated/src/Utils.cpp": {
+      "bytes": 8373,
+      "sha256": "1c4790deed71a8fc1d02d1dd6f40ec5da82240724a4f130f8a662d55f3ac79bc"
+    },
+    "updated/src/Utils.h": {
+      "bytes": 3097,
+      "sha256": "2cdbb7275b8b7b30d0dec28658cb6a991fa26ffde4b34dec4964ebeff8483b22"
+    }
+  },
+  "wrapper": {
+    "origin": "Gradle 8.7 wrapper copied from previously verified local CutOut wrapper; Apache license and NOTICE preserved",
+    "jar": {
+      "bytes": 43453,
+      "sha256": "cb0da6751c2b753a16ac168bb354870ebb1e162e9083f116729cec9c781156b8"
+    },
+    "distribution_sha256": "544c35d6bd849ae8a5ed0bcea39ba677dc40f49df7d1835561582da2009b961d"
+  },
+  "runtime_contract": {
+    "native_calls": "One process-wide FIFO worker serializes native calls and queued cleanup; closed/superseded jobs are discarded. The device check used force-stop before launch. Rapid Back/finish followed by relaunch before old Activity destruction is not validated.",
+    "synthetic_ground_truth": "first region initializes; subsequent truth only overlays and IoU",
+    "online_off": "initialization still trains; subsequent updates disabled",
+    "trace_files": "files/runs/{synthetic|camel}-learning-{on|off}.jsonl; filename reflects initial setting; each frame records actual learning flag",
+    "completion": "final frame has done:true; partial trace is not completion evidence",
+    "preview": "index -1 is unprocessed; no learning state label is drawn before processing. The actual update switch is applied to each processed step.",
+    "failure_reset": "Raw recorded bytes are validated/loaded before replacing a live Session; invalid reset does not destroy the previous live state.",
+    "output_validity": "Nonfinite estimates are normalized to lost; invalid visible estimates score IoU 0."
+  },
+  "limitations": [
+    "No physical device, emulator, camera or runtime performance checks were performed by this Android build agent.",
+    "Declared API 26 minimum and armeabi-v7a are compile targets, not runtime validation.",
+    "Recorded clip has no supplied ground truth or accuracy evaluation.",
+    "Only recovered no-blur, one-session operation is used."
+  ],
+  "maintainer_local": {
+    "private_work_root": "/Users/aaron/.codex/project-revivals-2026-11-14/predator/android",
+    "apk": "/Users/aaron/.codex/project-revivals-2026-11-14/predator/android/dist/predator-updated-final.apk",
+    "build_log": "/Users/aaron/.codex/project-revivals-2026-11-14/predator/android/final-lifecycle-build.log",
+    "native_symbol_log": "/Users/aaron/.codex/project-revivals-2026-11-14/predator/android/native-symbols.txt",
+    "dependencies": "Existing read-only cutout-runtime-2026-11-13 Android SDK/NDK/OpenCV/Gradle; no global dependency installation.",
+    "final_package_log": "/Users/aaron/.codex/project-revivals-2026-11-14/predator/android/final-lifecycle-package.log"
+  },
+  "previous_captured_apk": {
+    "bytes": 17077266,
+    "sha256": "7ac273fd18c80eb72e5ed7e991071ab6e50acc9e285538e6ab5bbf60700557d5",
+    "scope": "Historical earlier physical capture artifact. The final frozen APK now has its own separately linked device run and capture.",
+    "preserved_private_filename": "dist/predator-updated-captured-7ac273.apk"
+  },
+  "lifecycle_static_review": {
+    "reviewed_files": [
+      "MainActivity.java",
+      "NativeBridge.java",
+      "bridge.cpp",
+      "AndroidManifest.xml",
+      "../common/PredatorSession.cpp"
+    ],
+    "finding": "An Activity-local executor could overlap a replacement Activity against recovered global Tld state.",
+    "change": "Process-wide FIFO retained across Activity destruction; volatile closed/generation guards before jobs and after native work; per-instance handle zeroed/destroyed on same queue. No per-Activity shutdown.",
+    "verification": "Build and lint passed; device recreation is not claimed by static inspection."
+  },
+  "separate_physical_runtime": {
+    "artifact_record": "../../validation/native-platforms/android-artifact.json",
+    "trace": "../../validation/native-platforms/android-camel-trace.jsonl",
+    "derived_summary": "../../validation/native-platforms/android-result.json",
+    "capture_record": "../../validation/native-platforms/android-capture.json",
+    "scope": "Final frozen APK completed recorded-input autoplay on physical Pixel2 / Android10; other interactions and platforms are not established"
+  }
+}

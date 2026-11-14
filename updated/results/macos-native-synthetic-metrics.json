@@ -1,0 +1,13 @@
+{
+  "frames" : 120,
+  "input" : "Synthetic occlusion fixture",
+  "visible_iou_at_least_half" : 105,
+  "learning_mode" : "on",
+  "platform" : "macOS AppKit",
+  "visible_frames" : 105,
+  "mean_visible_iou" : 0.93485167633753119,
+  "reinitializations" : 2,
+  "positive_updates" : 642,
+  "lost_frames" : 15,
+  "negative_updates" : 1029
+}

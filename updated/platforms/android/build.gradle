@@ -1,0 +1,8 @@
+plugins { id 'com.android.application' version '8.3.0' apply false }
+
+// A maintainer can put all generated files on a private native filesystem.
+def externalBuildRoot = providers.gradleProperty('predatorBuildDir').getOrElse('')
+if (externalBuildRoot) {
+    layout.buildDirectory = file(externalBuildRoot)
+    subprojects { layout.buildDirectory = new File(externalBuildRoot, project.name) }
+}

@@ -1,0 +1,45 @@
+plugins { id 'com.android.application' }
+
+def opencvSdk = providers.gradleProperty('opencvSdk').orElse(providers.environmentVariable('OPENCV_ANDROID_SDK')).getOrElse('')
+if (!opencvSdk) throw new GradleException('Set OPENCV_ANDROID_SDK to the extracted OpenCV-android-sdk directory, or pass -PopencvSdk=/path/to/OpenCV-android-sdk')
+def nativeDir = providers.gradleProperty('predatorNativeDir').getOrElse('')
+
+android {
+    namespace 'org.awetzler.predator.updated'
+    compileSdk 34
+    ndkVersion '27.2.12479018'
+    defaultConfig {
+        applicationId 'org.awetzler.predator.updated'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '2026.11-restoration'
+        ndk { abiFilters 'arm64-v8a', 'armeabi-v7a' }
+        externalNativeBuild {
+            cmake {
+                arguments "-DOpenCV_DIR=${opencvSdk}/sdk/native/jni", '-DANDROID_STL=c++_shared'
+                cppFlags '-std=c++17'
+            }
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path 'src/main/cpp/CMakeLists.txt'
+            version '3.22.1'
+            if (nativeDir) buildStagingDirectory file(nativeDir)
+        }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes { release { minifyEnabled false } }
+}
+
+def prepareInputs = tasks.register('prepareInputs', Copy) {
+    into layout.buildDirectory.dir('generated/predator-assets')
+    from(rootProject.file('../data')) { include 'camel-320x180.gray' }
+    from(rootProject.file('../../DATA_PROVENANCE.json')) { into 'licenses' }
+    from("${opencvSdk}/LICENSE") { into 'licenses/opencv'; rename { 'LICENSE' } }
+    from("${opencvSdk}/sdk/etc/licenses") { into 'licenses/opencv/dependencies' }
+    from(rootProject.file('gradle')) { include 'LICENSE', 'NOTICE'; into 'licenses/gradle-wrapper' }
+}
+android.sourceSets.main.assets.srcDir(layout.buildDirectory.dir('generated/predator-assets'))
+tasks.named('preBuild').configure { dependsOn prepareInputs }

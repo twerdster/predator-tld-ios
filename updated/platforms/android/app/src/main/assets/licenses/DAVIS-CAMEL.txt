@@ -1,0 +1,23 @@
+DAVIS camel recording (first 90 frames)
+
+Dataset: https://davischallenge.org/
+MP4 mirror: https://huggingface.co/datasets/emirkisa/DAVIS-2017-480p-mp4
+File: camel_raw_24fps.mp4
+
+DAVIS homepage dataset metadata and the mirror dataset card specify
+Creative Commons Attribution-NonCommercial 4.0 International:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Dataset authors: Jordi Pont-Tuset, Federico Perazzi, Sergi Caelles,
+Pablo Arbelaez, Alexander Sorkine-Hornung and Luc Van Gool.
+
+This Android asset is the first 90 decoded frames, resized to 320x180 and
+converted to unannotated 8-bit grayscale pixels. The application computes
+tracking boxes and path overlays at runtime. Initial region is manually
+specified as x=105,y=35,width=135,height=85 in the resized first frame.
+No DAVIS masks or later-frame ground truth are supplied to the tracker.
+Recorded boxes are qualitative rather than an accuracy evaluation.
+
+Source download and source/derived hashes are recorded separately in the
+repository's updated/DATA_PROVENANCE.json and platform validation record.
+Footage terms remain separate from recovered source licensing.

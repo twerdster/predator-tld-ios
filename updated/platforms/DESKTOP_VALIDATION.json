@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-14",
+  "scope": "Actual native desktop UI execution: recovered Session processes generated and raw recorded frames. App-window screenshots sampled at 5 fps; MP4 presentation at 5 fps; GIF at 3 fps. No prior tracking output is used as runtime input.",
+  "macos_ui": "AppKit, arm64, macOS 15.1.1, OpenCV 4.12.0",
+  "linux_ui": "Tk 8.6 ctypes frontend, C++ shared core, Ubuntu 22.04 x86_64, OpenCV 4.5.4; actual isolated Xvfb display :97, not a physical monitor",
+  "screenshots_are_sampled_not_processing_fps": true,
+  "mp4_presentation_fps": 5,
+  "gif_presentation_fps": 3,
+  "runs": [
+    {
+      "platform": "macos",
+      "scene": "synthetic",
+      "learning_mode": "on",
+      "runtime_metrics": "results/macos-native-synthetic-metrics.json",
+      "capture_record": "results/macos-native-synthetic-capture.json",
+      "assets": {
+        "macos-native-synthetic.gif": {
+          "bytes": 1946282,
+          "sha256": "e43ecf5fb53d2e430e1f0328c2cf9a005ddc351a5004243d10d41fd6b6afd699"
+        },
+        "macos-native-synthetic.mp4": {
+          "bytes": 170219,
+          "sha256": "bc9d2c8f3e3810d56ea1ad513921e4f8921847a8ad7caaa81e2337f928acf4a1"
+        }
+      },
+      "recorded_accuracy_measured": null
+    },
+    {
+      "platform": "macos",
+      "scene": "camel",
+      "learning_mode": "on",
+      "runtime_metrics": "results/macos-native-camel-metrics.json",
+      "capture_record": "results/macos-native-camel-capture.json",
+      "assets": {
+        "macos-native-camel.gif": {
+          "bytes": 1663378,
+          "sha256": "dddf233722fe6b9c6c04618e8c64f3d10ccd40be19854547e844393ca706801e"
+        },
+        "macos-native-camel.mp4": {
+          "bytes": 421931,
+          "sha256": "156f349444b903d6116063a1b437b2af7d26d8d4fefb86d484ff7d5f1cd6cb08"
+        },
+        "macos-native-camel.png": {
+          "bytes": 891094,
+          "sha256": "eb3bad2847b7afed1a82ac109ade5bf8279314343b032ee67b42a1dd733e3ae4",
+          "capture_sample_index": 40,
+          "sample_index_is_tracker_frame": false
+        }
+      },
+      "recorded_accuracy_measured": false
+    },
+    {
+      "platform": "linux",
+      "scene": "synthetic",
+      "learning_mode": "on",
+      "runtime_metrics": "results/linux-native-synthetic-metrics.json",
+      "capture_record": "results/linux-native-synthetic-capture.json",
+      "assets": {
+        "linux-native-synthetic.gif": {
+          "bytes": 142737,
+          "sha256": "729cc7f7ff4c596576a6415ce6dc39bc7af6548e552b0cf697f92cad267e4230"
+        },
+        "linux-native-synthetic.mp4": {
+          "bytes": 219919,
+          "sha256": "24e28cd170778c216b2fc96efe622087084dd94a2a1ef5168732b16a749409c0"
+        }
+      },
+      "recorded_accuracy_measured": null
+    },
+    {
+      "platform": "linux",
+      "scene": "camel",
+      "learning_mode": "on",
+      "runtime_metrics": "results/linux-native-camel-metrics.json",
+      "capture_record": "results/linux-native-camel-capture.json",
+      "assets": {
+        "linux-native-camel.gif": {
+          "bytes": 834312,
+          "sha256": "a6fbaba08b8c7280e5f6488dac47b5d5494267d60d410456291d7e70b6087559"
+        },
+        "linux-native-camel.mp4": {
+          "bytes": 744823,
+          "sha256": "19b80cb51052465e4e110cd1289d1551768ccdc4b9d56385ff24b34d5fed5166"
+        },
+        "linux-native-camel.png": {
+          "bytes": 137796,
+          "sha256": "24b59cfe591e052e7f6773a5822004566a2809f36e3096368521cd284c646a0b",
+          "capture_sample_index": 40,
+          "sample_index_is_tracker_frame": false
+        }
+      },
+      "recorded_accuracy_measured": false
+    }
+  ],
+  "encoding_host": "macOS; Linux screenshots were transferred without re-rendering the interface",
+  "camera_capture": false,
+  "historical_ui_restored": false,
+  "core_source_changed_for_frontends": false,
+  "input_raw_sha256": "975588cf00538d8391dbd67f905c16becc4fc5abb44aa81c2bbfbce43286f379",
+  "native_source_sha256": {
+    "updated/platforms/common/PredatorSession.cpp": "74177a1db7448743053aaf2ccb881d270b75b22b4091bff36ebdbd42ae82bbd6",
+    "updated/platforms/common/PredatorSession.h": "dabeb80af6cd6c078c82b43be39b9a28d065a3f91b735833dd3dcddf9a7dc0b8",
+    "updated/platforms/common/PredatorCAPI.cpp": "a35cc24eae848e70aa1d565a14b6eee272b6d769cf431a56bba4fe4d51a8f3c1",
+    "updated/platforms/common/check_session.cpp": "cbf27c2adc7818f7e38ea103451f547f92b74c91024e932dfd4691fcccc5af89",
+    "updated/platforms/macos/main.mm": "e712f8c826325a070b6800aca1839a9deaae27c5f0b0b28fb9f36a5211275374",
+    "updated/platforms/desktop/predator_ui.py": "249696fd8d67f54ae47cf09a4fabb7fa5b0a254ce169026b06217c786e46e587",
+    "updated/CMakeLists.txt": "f6d6551a920318d51e5730692038c344e6ae326d3f8ae63ade50df99a7b0309b"
+  },
+  "runtime_binaries_sha256": {
+    "macos_appkit": "17f67288aa251aaeeed6dea62cd00c8193058c0eef8028820b4f5cc53365c7ba",
+    "macos_c_abi_library": "eab09e24ee7754e4cf55b216816e25ac027bdd0d0c118dd2922a69a53f6b067f",
+    "linux_c_abi_library": "364c91244ce36128d91c89fa957a46fa967516eb4175f308145225384f8bde48"
+  },
+  "checks": {
+    "normal_ctest": {
+      "macos": "2/2 passed",
+      "linux": "2/2 passed",
+      "logs": [
+        "results/macos-native-session-ctest.log",
+        "results/linux-native-session-ctest.log"
+      ]
+    },
+    "asan_ubsan": {
+      "macos": "2/2 passed",
+      "linux": "2/2 passed with leak detection enabled",
+      "logs": [
+        "results/macos-native-session-asan.log",
+        "results/linux-native-session-asan.log"
+      ],
+      "scope": "Instrumented recovered core and Session; prebuilt OpenCV and UI frameworks are not instrumented"
+    },
+    "session_program": "Synthetic online updates on/off, 120 frames each; recorded raw input, 90 frames; invalid ROI and failed recorded-reset preservation of synthetic prior session",
+    "reset_negative_control": "results/native-reset-negative-control.txt",
+    "tk_missing_input_runtime_control": "results/linux-invalid-input-ui-control.json"
+  }
+}
