@@ -1,5 +1,9 @@
 # Predator TLD on iOS
 
+[![New!](updated/assets/new-badge.svg)](updated/README.md#updated-and-ported-for-modern-hardware) [Updated and ported for modern hardware](updated/README.md#updated-and-ported-for-modern-hardware)
+
+*Historical project reference follows. Current builds and results are in the updated section above.*
+
 <p align="center">
   <img src="assets/project-preview.jpg" alt="Grayscale iPad camera view of a mannequin, with a red bounding box and cross marking the tracked face and a frame-rate readout" width="234">
 </p>

@@ -1,5 +1,9 @@
 # Updated Predator pipeline
 
+## Updated and ported for modern hardware
+
+The recovered custom tracker, detector and fern classifier now build as C++17 with OpenCV 4 primitives, with repairs to ownership, bounds, filtering and candidate handling. Enabling the existing negative fern updates deliberately changes classifier behavior. New iOS, Android, macOS and Linux replay interfaces process recorded or generated frames; they do not restore camera capture or the historical app UI.
+
 This C++17 target runs the recovered custom forward/backward Lucas–Kanade tracker, scanning detector, random-fern classifier, normalized-correlation validation and conditional learning. OpenCV 4 supplies core/image-processing primitives; the recovered tracking algorithm remains. The original project was developed for interactive object tracking on iPhone/iPad. This target accepts recorded or generated frames; the unmodified original iOS project did not reach compilation in Xcode 16.1.
 
 | Earlier Linux headless output | Physical iPhone 12, updated UIKit app |

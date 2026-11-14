@@ -2,6 +2,12 @@
 
 Read this file first, then SKILL.md. Current restoration record: 2026-11-14. The main README is deliberately retained as the historical project reference; use updated/README.md for the runnable maintained target.
 
+## Updated-work navigation (2026-11-14)
+
+Aaron authorized a top-of-page `New!` badge and “Updated and ported for modern hardware” link in the root README. Both lead to the corresponding heading in `updated/README.md`, which now opens with a brief description of the actual port, repairs or reimplementation and its limits. An italic line marks the following content as the historical reference. The historical root reference body remains unchanged; current implementation details stay under `updated/`.
+
+This documentation change does not alter source, submodule pins, media or recorded validation. Earlier root-README byte-identity statements and hashes apply to their recorded baseline; current preservation checks remove only the authorized navigation block before comparing the historical body.
+
 ## Preserved original
 
 source/ remains unchanged at kenguish/Predator-iOS-Technion commit a63f005bf34b041ff0dd985a8e18083f2d3065eb. Students Marian Mansour and Majd Srour; the report credits Aaron Wetzler/Yaron Honen, while upstream README credits Aaron Wetzler/Ron Kimmel and Anton Anton for UI/graphics. Preserve these differences and original GPL/third-party notices.

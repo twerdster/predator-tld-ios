@@ -2,6 +2,12 @@
 
 Read SUMMARY.md first, then this file, updated/README.md and updated/VALIDATION.json. The main README remains the historical project reference by user request; do not revise it as part of this restoration. Original source/ is pinned unchanged at a63f005bf34b041ff0dd985a8e18083f2d3065eb. Read relevant operators before making technical claims.
 
+## Updated-work navigation
+
+Aaron explicitly authorized the root README’s local `New!` badge and exact “Updated and ported for modern hardware” link on 2026-11-14. Keep both linked to `updated/README.md#updated-and-ported-for-modern-hardware`; retain the italic historical-reference qualifier and preserve the rest of the historical root reference. The matching updated README heading must introduce a short, factual account of the actual changes and limitations before the existing visuals, setup and evidence. Keep implementation descriptions and detailed results under `updated/`.
+
+This navigation addition is the authorized exception to older root-README preservation instructions below. Verify the historical body after removing only that block, preserve source hashes/pins and leave historical validation hashes attached to their original freezes. Documentation-only navigation edits do not add runtime coverage or require a package rebuild.
+
 ## Build and test
 
 Use a native filesystem for checkout/builds, C++17/CMake 3.20+ and OpenCV 4 core/imgproc. updated/CMakeLists.txt supports a normal OpenCV package or PREDATOR_OPENCV_PREFIX for a private core/imgproc extraction. The private Linux prefix also requires its matching libtbb.so.2 through LD_LIBRARY_PATH; see updated/BUILD.md and updated/VALIDATION.md. No GPU or camera is needed for the maintained executable.
